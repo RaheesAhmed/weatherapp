@@ -160,7 +160,7 @@ class App extends React.Component {
           {weatherInfo && <Result weather={weatherInfo} />}
           {error && <NotFound error={error} />}
         </WeatherWrapper>
-           <div>Developed by: RAHEES AHMED</div>
+           <div style="color:white">Developed by: RAHEES AHMED</div>
       </>
     );
   }
